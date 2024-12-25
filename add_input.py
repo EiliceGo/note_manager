@@ -1,0 +1,13 @@
+username = input('Enter your name: ')
+title = input('Enter the note title: ')
+content = input('Enter description: ')
+status = input ('Enter status of your note: ')
+created_date = input ('Enter the date of creation in the format dd-mm-yy: ')
+issue_date = input('Enter deadline in format dd-mm-yy: ')
+
+print('Name:', username)
+print('Title name:', title)
+print('Description:', content)
+print('Status:', status)
+print('Date of creation: ', created_date)
+print('Deadline: ', issue_date)
